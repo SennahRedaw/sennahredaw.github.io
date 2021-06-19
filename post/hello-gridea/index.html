@@ -72,7 +72,7 @@ He is not an organization, nor is he a spokesperson for an organization. He writ
       <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
         <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
           <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1624069412222" action="/search/index.html" class="search-form" _lpchecked="1">
+            <form id="gridea-search-form" data-update="1624070075170" action="/search/index.html" class="search-form" _lpchecked="1">
               <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
               <button type="submit" class="submit" aria-label="Submit">
                 <i class="fa fa-search-line"></i>
@@ -132,7 +132,25 @@ He is not an organization, nor is he a spokesperson for an organization. He writ
               
             
               <div id="comments" class="bg-white hosted ">
-                <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+                <div class="clear"></div>
+<script>
+jQuery(document).ready(function($){
+    $('.vemoji-btn').text('😀');
+    $("#comments").on('click', 'span.vat',function(){
+        $(this).parent('div.vmeta').next("div.vcontent").after($("div.vwrap"));
+        $('textarea#veditor').focus();
+    })
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+            if ($(window.location.hash).length) {
+                $('html, body').animate({scrollTop: $(window.location.hash).offset().top-200}, 600);
+                clearInterval(checkExist);
+            }
+        }, 100);
+    }
+})
+</script>
+
               </div>
               <div class="clear"></div>
             
@@ -146,7 +164,7 @@ He is not an organization, nor is he a spokesperson for an organization. He writ
             <div class="default-sidebar border-effect">
               <div class="grid-33 tablet-grid-50 mobile-grid-100">
                 <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
-                  <h4 class="widget-title title white bordered">最新文章</h4>
+                  <h4 class="widget-title title white bordered">Newest</h4>
                   
                   
                   <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
@@ -184,7 +202,7 @@ He is not an organization, nor is he a spokesperson for an organization. He writ
 
               <div class="grid-33 tablet-grid-50 mobile-grid-100">
                 <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
-                  <h4 class="widget-title title white bordered">标签云</h4>
+                  <h4 class="widget-title title white bordered">Tag cloud</h4>
                   <div class="tagcloud">
                     
                       <a href="https://sennahredaw.github.io/tag/radJ24p1m/" class="ctag ctag-0 ctag-radJ24p1m" aria-label="">Gridea</a>
@@ -196,7 +214,7 @@ He is not an organization, nor is he a spokesperson for an organization. He writ
 
               <div class="grid-33 tablet-grid-50 mobile-grid-100">
                 <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
-                  <h4 class="widget-title title white bordered">关于我</h4>
+                  <h4 class="widget-title title white bordered">About</h4>
                   <div class="avatar">
                     <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://sennahredaw.github.io/images/avatar.png);"></span></a>
                   </div>
@@ -229,7 +247,7 @@ He is not an organization, nor is he a spokesperson for an organization. He writ
           <a href="https://sennahredaw.github.io"><img src="\media\images\custom-footerLogo.png" alt=""></a>
         </div>
         <p class="published border-effect">
-          ©2019 共 2 篇文章
+          ©2021 2 articles in total
           <br/>
           Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
         </p>
@@ -238,11 +256,6 @@ He is not an organization, nor is he a spokesperson for an organization. He writ
           <i class="fa fa-arrow"></i>
         </a>
     </footer>
-    
-    <div class="clear"></div>
-
-        
-
       
     <script src="https://sennahredaw.github.io/media/js/functions-post.js"></script>
 

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sennahredaw.github.io</id>
     <title>Sennah Redaw</title>
-    <updated>2021-06-20T07:22:18.478Z</updated>
+    <updated>2021-06-20T08:44:45.807Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sennahredaw.github.io"/>
     <link rel="self" href="https://sennahredaw.github.io/atom.xml"/>
@@ -16,25 +16,31 @@
         <link href="https://sennahredaw.github.io/post/V1jUTRViN/">
         </link>
         <updated>2021-06-20T06:46:47.000Z</updated>
-        <content type="html"><![CDATA[<p>Vowels:<br>
-i: like &quot;i&quot;nch<br>
-e: like b&quot;e&quot;d<br>
-u:<br>
-o<br>
-a<br>
-Consonants:<br>
-b: bin<br>
-d: da<br>
-f: fa<br>
-h: hela<br>
-k: ku<br>
-l: le<br>
-m: mo<br>
-p: pe<br>
-r: ra<br>
-s: sa<br>
-t: tu<br>
-v: vo</p>
+        <content type="html"><![CDATA[<h1 id="letters-and-their-sounds">Letters and their sounds</h1>
+<h2 id="vowels">Vowels:</h2>
+<p><strong>i</strong>: like <strong>i</strong>nch<br>
+<strong>e</strong>: like b&quot;e&quot;d<br>
+<strong>u</strong>: p<strong>u</strong>t<br>
+<strong>o</strong>: p<strong>o</strong>t<br>
+<strong>a</strong>: l<strong>a</strong>st</p>
+<hr>
+<h2 id="consonants">Consonants:</h2>
+<p><strong>b</strong>: bin<br>
+<strong>d</strong>: da<br>
+<strong>f</strong>: fa<br>
+<strong>h</strong>: hela<br>
+<strong>k</strong>: ku<br>
+<strong>l</strong>: le<br>
+<strong>m</strong>: mo<br>
+<strong>p</strong>: pe<br>
+<strong>r</strong>: ra<br>
+<strong>s</strong>: sa<br>
+<strong>t</strong>: tu<br>
+<strong>v</strong>: vo</p>
+<hr>
+<h3 id="consonantal-digraph">Consonantal digraph:</h3>
+<p>ts=like <strong>z</strong> in german</p>
+<h3 id="consonantal-trigraph">Consonantal trigraph:</h3>
 ]]></content>
     </entry>
     <entry>

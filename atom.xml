@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sennahredaw.github.io</id>
     <title>Sennah Redaw</title>
-    <updated>2021-06-19T04:38:30.770Z</updated>
+    <updated>2021-06-20T04:15:00.624Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sennahredaw.github.io"/>
     <link rel="self" href="https://sennahredaw.github.io/atom.xml"/>
@@ -12,13 +12,13 @@
     <rights>All rights reserved 2021, Sennah Redaw</rights>
     <entry>
         <title type="html"><![CDATA[Prologue]]></title>
-        <id>https://sennahredaw.github.io/post/hello-gridea/</id>
-        <link href="https://sennahredaw.github.io/post/hello-gridea/">
+        <id>https://sennahredaw.github.io/post/Prologue/</id>
+        <link href="https://sennahredaw.github.io/post/Prologue/">
         </link>
         <updated>2021-06-18T01:31:25.000Z</updated>
         <content type="html"><![CDATA[<p>Sennah Redaw generated this page.<br>
-He is not an organization, nor is he a spokesperson for an organization. He writes in the third person because he is able to self-examine.</p>
-<p>👏  Powered by <strong>Gridea</strong> !</p>
+He is not an organization, nor is he a spokesperson for an organization. He writes in the third person because with this method he is able to self-examine.</p>
+<p>Powered by <strong>Gridea</strong> !</p>
 ]]></content>
     </entry>
 </feed>
